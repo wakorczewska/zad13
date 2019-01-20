@@ -7,7 +7,7 @@ import pandas as pd
 
 pd.set_option('display.max_columns', None)
 
-MojeDane = pd.read_csv(r"/Users/weronikakorczewska/Desktop/weronikakorczewskamojedane.csv", delimiter=';', engine='python') 
+MojeDane = pd.read_csv(r"/Users/weronikakorczewska/Desktop/mojedane.csv", delimiter=';', engine='python') 
 kanal1=MojeDane["pierwsza"]
 numer=MojeDane["Cyfra"]
 
